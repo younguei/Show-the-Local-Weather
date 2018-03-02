@@ -133,7 +133,7 @@
 
 		function weatherApi(cityName){
 			cityName = cityName || "%E7%BB%B5%E9%98%B3";
-			var url = 'http://v.juhe.cn/weather/index?cityname='+cityName+'&dtype=&format=&key=1b096a1310caa8af855504bb91f0c3fc&callback=?'
+			var url = 'https://v.juhe.cn/weather/index?cityname='+cityName+'&dtype=&format=&key=1b096a1310caa8af855504bb91f0c3fc&callback=?'
 			$.getJSON(url,function(data){
 				$(".title").html("中央气象台"+data.result.sk.time+"发布");
 				$("#nowTemp").html(data.result.sk.temp+"°C");
