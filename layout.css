@@ -1,0 +1,103 @@
+body{
+	background:url("https://desk-fd.zol-img.com.cn/t_s1366x768c5/g5/M00/09/01/ChMkJlnteP2INtmcADR9J9gFulcAAhfMAA9LeIANH0_916.png");
+}
+.todayWeather{
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+#nowTemp{
+	font-size: 50px;
+	font-weight: bolder;
+}
+.nowDetails span{
+	font-size: 20px;
+	display: inline-block;
+	width: 180px;
+	margin-bottom: 5px;
+}
+.futureWeather>p{
+	padding-left: 10px;
+	font-weight: bolder;
+}
+.futureWeather .futureDay p,.futureWeather .futureDate p,.futureWeather .futureWea p{
+	width: 150px;
+	float: left;
+	text-align:center;
+	padding: 0 10px;
+	font-weight: bold;
+}
+.futureWeather .futureDay p{
+	font-weight: bolder;
+}
+.container{
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 10px ;
+	box-shadow:2px 2px 3px #aaaaaa;
+	margin-bottom: 20px;
+	position: relative;
+}
+.title{
+	padding: 10px 10px;
+}
+#huabu{
+	padding-bottom: 15px;
+}
+#advice{
+	padding: 5px;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	border-radius: 15px;
+	position:absolute;
+	left: 205px;
+	top: 56px;
+	cursor: pointer;
+}
+
+#box{
+	border: 3px solid #76addc;
+	border-radius: 6px;
+	box-shadow: 2px 2px 3px #aaaaaa;
+	width: 276px;
+	height: 206px;
+	padding: 10px 0;
+	position: absolute;
+	left: 114px;
+	top: 100px;
+	background-color: #FFF;
+	display: none;
+
+}
+#box .innerbox{
+	box-sizing: border-box;
+	text-align: center;
+	width: 90px;
+	height: 90px;
+	float: left;
+	font-size: 10px;
+}
+#box .innerbox .iconfont{
+	font-size: 40px;
+
+}
+#box .myCaret{
+	height: 26px;
+	width: 26px;
+	border-width:13px;
+	border-style: solid;
+	border-color: transparent transparent #76addc transparent;
+	position: absolute;
+	top:-26px;
+	left:125px;
+}
+#searchBtn{
+	margin-left: 5px;
+	height: 25px;
+	vertical-align: bottom;
+	padding: 2px 7px;
+}
+#searchCity{
+	text-align: center;
+}
+

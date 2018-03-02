@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Show the Local Weather</title>
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./iconfont/iconfont.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=nTC87nUp6zs6wFZad0QqPaFA1SIOoSmo"></script>
+	<link rel="stylesheet" href="layout.css">
+	<script type="text/javascript" src="base.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title"></div>
+		<div class="todayWeather">
+			<span id="nowTemp"></span>
+			<span id="advice" class="bg-primary">生活小提示</span>
+			<div id="box">
+				<div class="myCaret"></div>
+				<div class="innerbox"><span class="iconfont icon-nanshangyi"></span><br>穿衣指数<br><span class="dress"></span></div>
+				<div class="innerbox"><span class="iconfont icon-xiaolian"></span><br>舒适度指数<br><span class="shushidu"></span></div>
+				<div class="innerbox"><span class="iconfont icon-taiyang"></span><br>紫外线强度<br><span class="sunshine"></span></div>
+				<div class="innerbox"><span class="iconfont icon-yundong"></span><br>运动建议<br><span class="sport"></span></div>
+				<div class="innerbox"><span class="iconfont icon-yu"></span><br>钓鱼建议<br><span class="fishing"></span></div>
+				<div class="innerbox"><span class="iconfont icon-qiche"></span><br>旅行建议<br><span class="travel"></span></div>
+			</div>
+			<div class="nowDetails">
+				<span class="iconfont icon-zuobiao"></span>
+				<span class="iconfont icon-sousuo"><input type="text" name="search" id="searchCity" placeholder="切换城市" /><button type="button" class="btn btn-primary btn-sm" id="searchBtn">搜索</button></span>
+				<br>
+				<span class="iconfont icon-feng"></span>
+				<span class="iconfont icon-shidu"></span>
+			</div>
+		</div>
+		<div class="futureWeather">
+			<p>7日天气预报</p>
+			<div class="futureDay"></div>
+			<div class="futureDate"></div>
+			<div class="futureWea"></div>
+			<div class="paintTem"></div>
+		</div>
+	</div>
+</body>
+</html>
